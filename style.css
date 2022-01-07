@@ -1,0 +1,280 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #484848;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+h2 {
+    font-family: Open Sans;
+    font-size: 200%;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+input {
+    width: 160%;
+    height: 150%;
+    border-radius: 20px;
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: 1px 1px 1px 1px rgb(236, 236, 236);
+    padding-left: 10%;
+}
+
+a {
+    color: black;
+}
+
+.search {
+    margin-bottom: 10px;
+    padding-top: 0;
+}
+
+.logo {
+    max-width: 7%;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1% 0;
+    box-shadow: 0px 1px rgb(236, 236, 236);
+    margin-left: 20px;
+
+}
+
+.btn_1 {
+    width: 40%;
+    border: 0;
+    background-color: white;
+    margin-left: 50px;
+}
+
+.btn_2 {
+    width: 10%;
+    border: 0;
+    background-color: white;
+}
+
+.btn_3 {
+    width: 20%;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 10px;
+    background-color: white;
+    height: 100%;
+}
+
+.btn_3 > i {
+    padding: 0 5px;
+}
+
+.navbar_right {
+    width: 20%;
+    
+}
+
+.opt {
+    margin-left: 45%;
+}
+
+.image-grid {
+    /* display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-width: 800px;
+    height: 300px;
+    margin-left: 15%;
+    margin-right: 15%; */
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 12vw);
+    grid-gap: 5px;
+    margin-left: 12%;
+    margin-right: 12%;
+    max-width: 80%;
+    padding: 3% 0;
+    
+    /* column-gap: 5px;
+    row-gap: 5px; */
+}
+
+.first-grid {
+    grid-row: 1 / 3;
+    grid-column: 1 / 3;
+}
+
+.first-grid > img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fourth-grid > img {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.second-grid > img {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.third-grid > img {
+    border-top-right-radius: 10px;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+} 
+.fifth-grid > img {
+    border-bottom-right-radius: 10px;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+img {
+    max-width: 100%;
+}
+
+.fourth-image {
+    object-fit: cover;
+}
+
+.header {
+    padding-left: 12%;
+}
+
+
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+.details_header{
+    padding-bottom: 5%;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.details {
+    width: 50%;
+    margin-left: 12%;
+    padding-right: 5%;
+}
+
+.price {
+    width: 30%;
+    margin-right: 12%;
+}
+
+li {
+    display: inline-block;
+}
+
+ul {
+    list-style-type: circle;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+           
+}
+
+.ament_ul {
+    padding-bottom: 3%;
+    
+}
+
+.ament_ul >li {
+    padding-left: 2%;
+}
+
+.ament {
+    padding: 5% 0;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+h3 {
+    font-size: 150% ;
+    margin: 0;
+}
+
+.box {
+    height: 75%;
+    width: 90%;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 10px;
+    /* position:-webkit-sticky */
+}
+
+.box > button{
+    width: 90%;
+    height: 20%;
+    margin: 1% 5%;
+    border-radius: 10px;
+    border: 0;
+    background-color: #f70d1a;
+    color: white;
+    font-family: Open Sans;
+    font-size: 120%;
+}
+
+table {
+    border: 1px solid rgb(204, 204, 204);
+    border-spacing: 0;
+    width: 90%;
+    margin: 2% 5%;
+    border-radius: 10px;
+}
+
+td {
+    border-right: 1px solid rgb(204, 204, 204);
+    border-bottom: 1px solid rgb(204, 204, 204);
+    padding:5% 3%;
+    font-size: 75%;
+    font-weight: bold;
+}
+
+.sec1 {
+    display: flex;
+    text-align: end;
+    margin: 0% 5%;
+}
+
+.sec1 > p {
+    margin-top: 5.5%;
+    margin-left: 5px;
+    font-size: 125%;
+}
+
+.sec1_h2 {
+    font-size: 175%;
+    font-weight: lighter;
+}
+
+
+.host {
+    max-width: 8%;
+    float: right;
+    border-radius: 25px;
+    margin-bottom: 20px
+}
+
+
+
+
